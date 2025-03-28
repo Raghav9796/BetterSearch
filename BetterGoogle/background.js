@@ -2,7 +2,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     if (!changeInfo.url) return;
 
     let url = new URL(changeInfo.url);
-    if (!url.hostname.includes("google.com") || !url.searchParams.has("q")) return; // Ensure it's a search
+    if (!url.hostname.includes("google.com") || !url.searchParams.has("q")) return;
 
     chrome.storage.sync.get("enabled", (data) => {
         if (!data.enabled) return;
