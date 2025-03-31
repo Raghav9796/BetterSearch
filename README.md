@@ -4,7 +4,7 @@
 
 - to not have to read AI generated slop with each google search just adds the -ai at the end of each google search 
 - has a toggle option if one does want to read AI slop **keybaord shortcut COMMAND+B or CTRL+B**
-- plan to add more features in extension that leverage other advance search features without having to make a Google CSE
+- plan to add more features in extension that leverage other advance search features (filetype:, site:)
 
 ## How to Use 
 
